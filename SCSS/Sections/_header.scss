@@ -1,0 +1,95 @@
+.header {
+
+    background-color: $color-theme-beige;
+    padding-top: 20px;
+
+    .container {
+
+        display: flex;
+
+        .logo {
+            margin-right: 50px;
+        }
+
+        ._navbar {
+            width: 100%;
+            
+            .upper {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 25px;
+                border-bottom: 1px solid rgb(216, 216, 216);
+
+                .info {
+                    display: flex;
+        
+                    >span {
+                        font-size: $font-size-15;
+                        font-weight: $font-weight-light;
+                        margin-right: 20px;
+                        padding-bottom: 10px;
+
+                        &:nth-child(2) {
+                            
+                            > i {
+                                padding-left: 15px;
+                                border-left: 1px solid rgb(216, 216, 216);
+                            }
+                        }
+
+                        
+                        &:last-child {
+                            
+                            > i {
+                                padding-left: 15px;
+                                border-left: 1px solid rgb(216, 216, 216);
+                            }
+                        }
+
+                        >i {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+
+                .social-media {
+
+                    >a {
+                        margin-left: 10px;
+                    }
+                }
+            }
+
+            .lower {
+                display: flex;
+                justify-content: space-between;
+
+                .nav-links {
+                    display: flex;
+                    align-items: end;
+
+                    >a {
+                        margin-right: 20px;
+                        font-weight: $font-weight-regular;
+                    }
+                }
+
+                >button {
+                    position: relative;
+                    border: none;
+                    border-radius: 25px;
+                    padding: 10px 25px;
+                    background-color: $color-theme-yellow;
+
+                    >span {
+                        position: relative;
+                        font-size: $font-size-16;
+                        font-weight: $font-weight-semiBold;
+                        top: 4px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+// Buttons
+.button-yellow {
+
+    position: relative;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 25px;
+    background-color: $color-theme-yellow;
+
+    >span {
+        position: relative;
+        font-size: $font-size-16;
+        font-weight: $font-weight-semiBold;
+        top: 4px;
+        margin-right: 10px;
+    }
+}
+
+.button-white {
+
+    position: relative;
+    border: none;
+    border-radius: 25px;
+    border: 1px solid $color-dark;
+    padding: 10px 25px;
+    background-color: $color-white;
+
+    >span {
+        position: relative;
+        font-size: $font-size-16;
+        font-weight: $font-weight-semiBold;
+        top: 4px;
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,52 @@
+.showcase {
+
+    padding-top: 90px;
+    background-color: $color-theme-beige;
+
+    .container {
+
+        .showcase-content {
+
+            position: relative;
+            display: flex;
+
+            .showcase-text {
+
+                padding-top: 50px;
+
+                >h1 {
+                    font-family: $font-dm-sans;
+                    font-weight: $font-weight-bold;
+                    font-size: 5.5rem;
+
+                }
+
+                >p {
+                    padding-top: 20px;
+                    font-size: $font-size-20;
+                    font-weight: $font-weight-regular;
+                }
+
+                .showcase-buttons {
+
+                    padding-top: 25px;
+
+                    >button {
+
+                        &:first-child {
+                            margin-right: 25px;
+                        }
+                    }
+                    
+                }
+
+
+            }
+
+            >img {
+                position: relative;
+                left: 70px;
+            }
+        }
+    }
+}

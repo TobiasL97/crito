@@ -1,0 +1,92 @@
+.testimonial {
+
+    background-color: $color-theme-yellow;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    .container {
+        background-color: $color-white;
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        .testimonial-title {
+
+            text-align: center;
+            margin-bottom: 40px;
+
+            >h3 {
+                font-size: $font-size-22;
+                color: $color-red;
+                font-weight: $font-weight-medium;
+            }
+
+            >h2 {
+                font-family: $font-dm-sans;
+                font-size: $font-size-45;
+                font-weight: $font-weight-bold;
+            }
+        }
+
+        .testimonial-grid {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-bottom: 60px;
+
+            .testimonial-card {
+
+                padding: 50px;
+
+                .review-stars {
+
+                    margin-bottom: 30px;
+
+                    >i {
+
+                        color: $color-red;
+                        background-color: transparent;
+                    }
+                }
+
+                >p {
+                    margin-bottom: 40px;
+                }
+
+                .review-person {
+
+                    display: flex;
+                    align-items: center;
+
+                    >img {
+
+                        margin-right: 20px;
+                    }
+
+
+                    .review-person-details {
+
+                        >h3 {
+                            margin: 0;
+                            font-family: $font-dm-sans;
+                            font-size: $font-size-22;
+                            font-weight: $font-weight-bold;
+                        }
+
+                        >p {
+                            margin: 0;
+                            font-size: $font-size-16;
+                            font-weight: $font-weight-regular;
+                            color: $color-red;
+                        }
+                    }
+                }
+            }
+        }
+
+        .all-reviews-button {
+
+            text-align: center;
+            
+        }
+    }
+}

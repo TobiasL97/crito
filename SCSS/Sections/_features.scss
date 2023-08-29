@@ -1,0 +1,66 @@
+.features {
+
+    padding-top: 70px;
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        border: 1px solid #1919191f;
+        padding: 80px 100px;
+
+        .features-learn-more {
+
+            padding-right: 50px;
+
+            >h6 {
+                color: $color-red;
+                font-weight: $font-weight-medium;
+                font-size: $font-size-18;
+                margin-bottom: 40px;
+            }
+
+            >h3 {
+                font-family: $font-dm-sans;
+                font-size: $font-size-45;
+                font-weight: $font-weight-bold;
+            }
+
+            .button-yellow {
+                margin-top: 50px;
+                width: 100%;
+                padding: 12px 0px;
+            }
+        }
+
+        .features-advice {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding-top: 65px;
+            padding-left: 20px;
+            gap: 50px;
+
+            .feature-card {
+
+                >i {
+                    font-size: $font-size-22;
+                }
+
+
+                >h3 {
+                    padding-top: 20px;
+                    font-family: $font-dm-sans;
+                    font-weight: $font-weight-bold;
+                    font-size: $font-size-22;
+                }
+
+                >p {
+                    font-size: $font-size-16;
+                    font-weight: $font-weight-regular;
+                    color: $color-gray;
+                }
+
+            }
+        }
+
+    }
+}

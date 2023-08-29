@@ -1,0 +1,32 @@
+.news-signup {
+
+    background-color: $color-theme-beige;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    margin-top: 70px;
+
+    .container {
+
+        >div {
+            display: flex;
+            align-items: center;
+
+            >h2 {
+                font-size: $font-size-45;
+                font-weight: $font-weight-bold;
+                font-family: $font-dm-sans;
+                margin-right: 150px;
+            }
+
+            >input {
+
+                border: none;
+                padding: 10px 30px;
+                border-radius: 20px;
+                margin-right: 20px;
+                outline: none;
+
+            }
+        }
+    }
+}

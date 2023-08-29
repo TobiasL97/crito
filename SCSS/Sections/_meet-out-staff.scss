@@ -1,0 +1,65 @@
+.meet-our-staff {
+
+    margin-top: 120px;
+    padding-top: 120px;
+    background-color: $color-theme-yellow;
+
+    .container {
+
+        .meet-our-staff-title {
+
+            >h3 {
+
+                font-size: $font-size-18;
+                font-weight: $font-weight-medium;
+                color: $color-red;
+                margin-bottom: 20px;
+            }
+
+            >div {
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                >h2 {
+
+                    font-size: $font-size-45;
+                    font-family: $font-dm-sans;
+                    font-weight: $font-weight-bold;
+                }
+            }
+
+        }
+
+        .meet-our-staff-grid {
+
+            margin-top: 100px;
+            margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+            .meet-our-staff-card {
+
+                >img {
+                    margin-bottom: 20px;
+                }
+
+                >h4 {
+                    font-family: $font-dm-sans;
+                    font-size: $font-size-22;
+                    font-weight: $font-weight-bold;
+                    margin-bottom: 5px;
+                }
+
+                >p {
+                    font-size: $font-size-16;
+                    font-weight: $font-weight-medium;
+                    color: $color-gray;
+
+                }
+
+            }
+        }
+    }
+}

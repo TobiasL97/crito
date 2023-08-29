@@ -1,0 +1,80 @@
+.why-choose-us {
+    position: relative;
+    padding-top: 60px;
+
+    .background-rectangle {
+
+        padding: 10% 27%;
+        position: absolute;
+        right: 0;
+        bottom: 60px;
+        background-color: $color-theme-beige;
+        z-index: -1;
+        
+    }
+
+    .container {
+
+
+        >h3 {
+            font-size: $font-size-18;
+            font-weight: $font-weight-medium;
+            color: $color-red;
+        }
+
+        .choose-us-grid {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 200px;
+
+            .choose-us-content {
+
+                padding-top: 20px;
+
+                >h2 {
+                    font-weight: $font-weight-bold;
+                    font-size: $font-size-45;
+                    font-family: $font-dm-sans;
+                    margin-bottom: 40px;
+    
+                }
+
+                .choose-us-offers {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 60px;
+
+                    >i {
+                        padding: 15px;
+                        border: 1px solid rgb(202, 202, 202);
+                        border-radius: 50px;
+                        font-size: $font-size-22;
+                        margin-right: 20px;
+                    }
+
+                    >span {
+
+                        >h4 {
+                            font-size: $font-size-22;
+                            font-family: $font-dm-sans;
+                            font-weight: $font-weight-bold;
+                            margin: 0;
+                        }
+    
+                        >p {
+                            margin: 0;
+                            color: $color-gray;
+                            font-weight: $font-weight-regular;
+                            font-size: $font-size-16;
+                        }
+                    }
+                }
+
+
+
+            }
+        }
+
+    }
+}

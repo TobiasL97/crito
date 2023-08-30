@@ -1,0 +1,63 @@
+.leave-us-a-message {
+
+    margin-top: 80px;
+
+    .container {
+
+        background-color: $color-theme-beige;
+        padding: 120px;
+        margin-bottom: 120px;
+
+
+        .leave-us-a-message-header {
+
+            text-align: center;
+
+            >h1 {
+
+                font-family: $font-dm-sans;
+                font-size: $font-size-45;
+                font-weight: $font-weight-bold;
+            }
+        }
+
+        .message-grid {
+
+            display: grid;
+            grid-template-columns: 1fr;
+
+            >input {
+                padding: 15px 30px;
+                margin-bottom: 30px;
+                border: none;
+                border-radius: 25px;
+                outline: none;
+            }
+
+            >textarea {
+
+                padding: 10px 30px;
+                border: none;
+                border-radius: 30px;
+                width: 100%;
+                height: 200px;
+                outline: none;
+                margin-bottom: 40px;
+            }
+
+            >.button-yellow {
+
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            
+        }
+    }
+
+    .google-map {
+
+        width: 100%;
+        height: 600px;
+    }
+}

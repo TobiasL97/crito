@@ -1,14 +1,22 @@
 .article-and-news {
 
-    padding-top: 120px;
+    padding-top: 100px;
+    margin-bottom: 80px;
 
 
     .container {
 
+        >h3 {
+            font-size: $font-size-45;
+            font-weight: $font-weight-bold;
+            font-family: $font-dm-sans;
+            margin-bottom: 40px;
+        }
+
 
         .article-and-news-title {
 
-            margin-bottom: 40px;
+            margin-bottom: 50px;
 
             >h3 {
 
@@ -35,7 +43,7 @@
 
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 20px;
+            gap: 60px;
             margin-bottom: 60px;
 
             .article-and-news-card {
@@ -49,6 +57,7 @@
                     font-size: $font-size-16;
                     font-weight: $font-weight-regular;
                     color: $color-gray;
+                    margin-bottom: 20px;
                 }
 
                 >h2 {
@@ -56,12 +65,36 @@
                     font-family: $font-dm-sans;
                     font-size: $font-size-22;
                     font-weight: $font-weight-bold;
+                    margin-bottom: 10px;
                 }
 
                 >p {
                     font-size: $font-size-16;
                     color: $color-gray;
                     font-weight: $font-weight-regular;
+                }
+            }
+        }
+
+        .carousel-pages {
+
+            text-align: center;
+
+            .carousel-button {
+
+                margin: 0px 3px;
+                border: 1px solid #19191927;
+                border-radius: 5px;
+                background-color: $color-white;
+                padding: 5px 12px;
+                font-family: $font-dm-sans;
+                font-size: $font-size-20;
+                font-weight: $font-weight-light;
+
+                &:active {
+
+                    background-color: $color-dark;
+                    color: white;
                 }
             }
         }

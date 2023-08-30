@@ -48,7 +48,51 @@
 
             .news-details-body {
 
-                
+                >img {
+                    margin-bottom: 50px;
+                }
+
+                .news-details-text {
+
+                    >p {
+                        font-size: $font-size-16;
+                        font-weight: $font-weight-regular;
+                        margin-bottom: 40px;
+                    }
+                }
+
+                .news-details-quote {
+
+                    display: flex;
+                    margin-top: 100px;
+                    margin-bottom: 100px;
+
+                    >img {
+                        padding-bottom: 125px;
+                        margin-right: 20px;
+                    }
+                    
+                    >p {
+                        margin: 0px;
+                        font-size: $font-size-22;
+                        font-weight: $font-dm-sans;
+                        font-weight: $font-weight-medium;
+                        
+                    }
+                }
+
+               .tags {
+
+                display: flex;
+                margin-top: 50px;
+
+                & > * {
+
+                    margin: 0px 10px 0px 0px;
+                }
+
+
+               } 
 
             }
 
